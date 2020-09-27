@@ -3,3 +3,4 @@ streamlit==0.66.0
 pandas==1.0.1
 matplotlib==3.2.2
 sqlite==3.32.32
+pillow==7.2.0
