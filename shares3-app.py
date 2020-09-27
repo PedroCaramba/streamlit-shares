@@ -64,6 +64,7 @@ def main():
         pass
         
     elif choice == "Login":
+        create_usertable()
         st.sidebar.subheader("Login")
         username = st.sidebar.text_input("User Name")
         password = st.sidebar.text_input("Password",type='password')
@@ -177,6 +178,7 @@ def main():
         
                 
     elif choice == "SignUp":
+            create_usertable()
             st.subheader("Create New Account")
             new_user = st.text_input("Username")
             st.warning("Username should at least have 3 characters")        
